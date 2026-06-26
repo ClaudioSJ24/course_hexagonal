@@ -1,4 +1,4 @@
 package com.juarez.shared;
 
-public class EmailTest {
+public class MoneyTest {
 }
