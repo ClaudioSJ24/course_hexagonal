@@ -1,4 +1,4 @@
-package com.juarez.order;
+package com.juarez.product;
 
-public class OrderItemTest {
+public class ProductImageTest {
 }

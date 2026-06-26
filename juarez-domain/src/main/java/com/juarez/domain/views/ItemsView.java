@@ -1,4 +1,4 @@
-package shared;
+package com.juarez.domain.views;
 
-public record AudiInfo() {
+public record ItemsView() {
 }

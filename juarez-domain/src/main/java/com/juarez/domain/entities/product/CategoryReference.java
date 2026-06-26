@@ -1,4 +1,4 @@
-package entities.product;
+package com.juarez.domain.entities.product;
 
 public record CategoryReference() {
 }

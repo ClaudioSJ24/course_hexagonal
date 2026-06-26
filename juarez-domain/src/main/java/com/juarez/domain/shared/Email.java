@@ -1,4 +1,4 @@
-package shared;
+package com.juarez.domain.shared;
 
-public record AudiInfo() {
+public record Email() {
 }

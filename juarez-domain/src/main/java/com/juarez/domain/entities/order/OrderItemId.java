@@ -1,4 +1,4 @@
-package entities.order;
+package com.juarez.domain.entities.order;
 
 public record OrderItemId() {
 }

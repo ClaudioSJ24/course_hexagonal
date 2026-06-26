@@ -1,4 +1,4 @@
 package com.juarez.product;
 
-public class ProductImageTest {
+public class ProductNameTest {
 }

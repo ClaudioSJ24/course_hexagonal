@@ -1,4 +1,4 @@
-package entities.order.events;
+package com.juarez.domain.entities.order.events;
 
 public record OrderShipped() {
 }

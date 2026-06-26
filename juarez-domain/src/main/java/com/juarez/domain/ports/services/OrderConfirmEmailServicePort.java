@@ -1,4 +1,4 @@
-package ports.services;
+package com.juarez.domain.ports.services;
 
-public interface ImgeStorageServicePort {
+public interface OrderConfirmEmailServicePort {
 }
