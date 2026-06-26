@@ -1,0 +1,8 @@
+rootProject.name = 'juarez'
+
+
+include 'juarez-api'
+include 'juarez-common'
+include 'juarez-application'
+include 'juarez-domain'
+include 'juarez-infrastructure'

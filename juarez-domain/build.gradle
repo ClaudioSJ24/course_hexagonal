@@ -1,0 +1,5 @@
+dependencies {
+    // Dependencias del dominio
+    implementation project(':juarez-common')
+}
+
