@@ -1,4 +1,3 @@
-
 dependencies {
     // Dependencias comunes para todos los módulos se heredan del build.gradle raíz
 }
