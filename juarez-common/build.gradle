@@ -1,4 +1,5 @@
 dependencies {
     // Dependencias comunes para todos los módulos se heredan del build.gradle raíz
+    implementation("org.projectlombok:lombok:1.18.46")
 }
 

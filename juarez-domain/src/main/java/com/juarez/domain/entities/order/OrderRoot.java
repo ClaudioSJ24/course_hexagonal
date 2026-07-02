@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.Currency;
 import java.util.List;
 
-@Getter
+
 public class OrderRoot extends AggregateRoot<OrderId> {
     private OrderNumber orderNumber;
     private Customer customer;
@@ -266,5 +266,23 @@ public class OrderRoot extends AggregateRoot<OrderId> {
 
     }
 
+    public OrderNumber getOrderNumber() {
+        return orderNumber;
+    }
 
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public static OrderStatus getStatus() {
+        return status;
+    }
+
+    public Money getTotalAmount() {
+        return totalAmount;
+    }
+
+    public AuditInfo getAuditInfo() {
+        return auditInfo;
+    }
 }
