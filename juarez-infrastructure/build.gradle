@@ -28,4 +28,7 @@ dependencies {
     //Mail and HTML
     api 'org.springframework.boot:spring-boot-starter-mail:4.1.0'
     api 'org.springframework.boot:spring-boot-starter-thymeleaf:4.1.0'
+
+    // Source: https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api
+    api("jakarta.validation:jakarta.validation-api:4.0.0-M1")
 }
