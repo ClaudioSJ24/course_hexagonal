@@ -33,4 +33,9 @@ dependencies {
     api("org.projectlombok:lombok:1.18.46")
     // Source: https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api
     api("jakarta.validation:jakarta.validation-api:4.0.0-M1")
+
+    //MapStruct
+    api 'org.mapstruct:mapstruct:1.6.3'
+
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.6.3'
 }
