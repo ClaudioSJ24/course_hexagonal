@@ -1,6 +1,6 @@
 package com.juarez.domain.ports.repositories;
 
-import com.juarez.domain.views.ProductView;
+import com.juarez.domain.entities.views.ProductView;
 
 import java.util.List;
 import java.util.Optional;

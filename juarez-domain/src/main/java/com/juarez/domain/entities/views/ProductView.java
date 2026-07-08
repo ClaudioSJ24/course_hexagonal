@@ -1,4 +1,4 @@
-package com.juarez.domain.views;
+package com.juarez.domain.entities.views;
 
 import java.util.List;
 import java.util.Map;

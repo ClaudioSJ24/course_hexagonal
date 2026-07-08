@@ -1,4 +1,4 @@
-package com.juarez.domain.views;
+package com.juarez.domain.entities.views;
 
 public record ItemsView(
         String code,

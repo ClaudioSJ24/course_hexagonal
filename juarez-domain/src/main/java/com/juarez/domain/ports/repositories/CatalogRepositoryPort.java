@@ -1,7 +1,7 @@
 package com.juarez.domain.ports.repositories;
 
-import com.juarez.domain.views.CatalogView;
-import com.juarez.domain.views.ItemsView;
+import com.juarez.domain.entities.views.CatalogView;
+import com.juarez.domain.entities.views.ItemsView;
 import com.sanchez.juarez.common.enums.CatalogType;
 
 import java.util.List;
