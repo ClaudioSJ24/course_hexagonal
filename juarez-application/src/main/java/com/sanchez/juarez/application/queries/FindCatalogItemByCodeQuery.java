@@ -10,13 +10,13 @@ import org.springframework.stereotype.Service;
 import java.util.Optional;
 
 @Service
-public class FindCatalogItmByCodeQuery {
+public class FindCatalogItemByCodeQuery {
 
-    private static final Logger log = LogManager.getLogger(FindCatalogItmByCodeQuery.class);
+    private static final Logger log = LogManager.getLogger(FindCatalogItemByCodeQuery.class);
     private final CatalogRepositoryPort catalogRepositoryPort;
 
 
-    public FindCatalogItmByCodeQuery(CatalogRepositoryPort catalogRepositoryPort) {
+    public FindCatalogItemByCodeQuery(CatalogRepositoryPort catalogRepositoryPort) {
         this.catalogRepositoryPort = catalogRepositoryPort;
     }
 

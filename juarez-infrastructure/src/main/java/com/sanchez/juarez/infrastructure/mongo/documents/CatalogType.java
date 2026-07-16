@@ -6,4 +6,6 @@ public enum CatalogType {
     PAYMENT_METHODS,
     SHIPPING_METHODS,
     COUNTRIES, CURRENCIES
+
+
 }
