@@ -9,11 +9,8 @@ import jakarta.validation.constraints.NotBlank;
  *
  * @param productId Product ID to deactivate
  */
-public record DesactivateStockCommand(
-
+public record DesactivateProductCommand(
         @NotBlank(message = "Product ID cannot be null or blank")
         String productId
 ) {
-    // No additional validation needed
 }
-

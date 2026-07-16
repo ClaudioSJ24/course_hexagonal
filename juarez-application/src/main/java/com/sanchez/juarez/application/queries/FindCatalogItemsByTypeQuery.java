@@ -7,23 +7,21 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+import java.util.List;
 
 @Service
-public class FindCatalogItmByCodeQuery {
+public class FindCatalogItemsByTypeQuery {
 
-    private static final Logger log = LogManager.getLogger(FindCatalogItmByCodeQuery.class);
+    private static final Logger log = LogManager.getLogger(FindCatalogItemsByTypeQuery.class);
     private final CatalogRepositoryPort catalogRepositoryPort;
 
-
-    public FindCatalogItmByCodeQuery(CatalogRepositoryPort catalogRepositoryPort) {
+    public FindCatalogItemsByTypeQuery(CatalogRepositoryPort catalogRepositoryPort) {
         this.catalogRepositoryPort = catalogRepositoryPort;
     }
 
-    public Optional<ItemsView> execute(CatalogType catalogType, String code){
+    public List<ItemsView> execute(CatalogType catalogType){
+        log.info("Execute FindCatalogItemsByTypeQuery");
 
-        log.info("Execute FindCatalogItemByCodeQuery");
-
-        return this.catalogRepositoryPort.findItemByTypeAndCode(catalogType, code);
+        return this.catalogRepositoryPort.findItemsByType(catalogType);
     }
 }

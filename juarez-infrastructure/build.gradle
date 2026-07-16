@@ -31,8 +31,8 @@ dependencies {
 
     // Source: https://mvnrepository.com/artifact/org.projectlombok/lombok
     api("org.projectlombok:lombok:1.18.46")
-    // Source: https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api
-    api("jakarta.validation:jakarta.validation-api:4.0.0-M1")
+    // Source: https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation
+    implementation("org.springframework.boot:spring-boot-starter-validation:4.1.0")
 
     //MapStruct
     api 'org.mapstruct:mapstruct:1.6.3'
